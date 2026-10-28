@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Kushagra Kandu's personal portfolio showcasing skills, projects, and contact information."
+  />
+  <title>Kushagra Kandu | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <a class="logo" href="#home">KK<span>.</span></a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="nav"
+    >
+      ☰
+    </button>
+
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <p class="eyebrow">HELLO, WORLD! 👋</p>
+
+      <h1>Kushagra<br />Kandu<span>.</span></h1>
+
+      <h2>Student | Aspiring Software Developer</h2>
+
+      <p class="intro">
+        I am a technology enthusiast who enjoys building websites,
+        exploring new technologies, and solving problems through code.
+        I believe in continuous learning and turning creative ideas
+        into practical digital experiences.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">
+          Explore My Projects
+        </a>
+
+        <a class="button secondary" href="#contact">
+          Get In Touch
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+
+      <h2>About Me</h2>
+
+      <p>
+        Hello! I'm Kushagra Kandu, a student at KIIT University with
+        an interest in web development and software engineering.
+        I enjoy learning how technology works and applying my knowledge
+        to create useful and engaging applications.
+      </p>
+
+      <p>
+        I am currently developing my programming skills, exploring
+        modern development tools, and learning how to build, test,
+        containerize, and deploy websites. My goal is to keep improving
+        as a developer by working on practical projects and learning
+        something new every day.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+
+      <h2>My Skills</h2>
+
+      <div class="chips">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>Git &amp; GitHub</span>
+      </div>
+
+      <p>
+        I am continuously strengthening these skills through practice,
+        coursework, and personal projects.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <p class="eyebrow">THINGS I'VE BEEN BUILDING</p>
+
+      <h2>My Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-number">01</div>
+
+          <h3>Personal Portfolio Website</h3>
+
+          <p>
+            A responsive personal portfolio built with HTML, CSS,
+            and JavaScript to showcase my background, skills, projects,
+            and contact information. The website is containerized
+            using Docker and deployed through Vercel.
+          </p>
+
+          <span class="tag">HTML · CSS · JavaScript · Docker</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+
+          <h3>Student Task Manager</h3>
+
+          <p>
+            A task management website concept designed to help students
+            organize assignments, maintain to-do lists, and keep track
+            of important deadlines through a simple interface.
+          </p>
+
+          <span class="tag">HTML · CSS · JavaScript</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+
+          <h3>Weather Dashboard</h3>
+
+          <p>
+            A weather dashboard concept for presenting current weather
+            conditions and useful information in a clean, easy-to-read
+            interface. It can be extended to use a live weather API.
+          </p>
+
+          <span class="tag">JavaScript · API Integration</span>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+
+      <h2>Let's Build Something Together</h2>
+
+      <p>
+        I'm always interested in learning, collaborating, and exploring
+        new opportunities. Feel free to reach out to me.
+      </p>
+
+      <div class="hero-actions">
+        <a
+          class="button primary"
+          href="mailto:24155334@kiit.ac.in"
+        >
+          Email Me
+        </a>
+
+        <a
+          class="button secondary"
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Profile
+        </a>
+      </div>
+
+      <p class="small-note">
+        Email:
+        <a href="mailto:24155334@kiit.ac.in">
+          24155334@kiit.ac.in
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <span>
+      © <span id="year"></span> Kushagra Kandu. All rights reserved.
+    </span>
+
+    <a href="#home">Back to Top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
